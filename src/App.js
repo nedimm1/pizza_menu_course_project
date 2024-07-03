@@ -46,14 +46,14 @@ function Footer() {
 
 function App() {
   return (
-    <div className="App">
-      <header>
+    <div className="container">
+      <header className="header">
         <Header></Header>
       </header>
 
       <Menu></Menu>
 
-      <footer>
+      <footer className="footer">
         <Footer></Footer>
       </footer>
     </div>
